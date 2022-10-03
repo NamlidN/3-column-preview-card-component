@@ -1,2 +1,81 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: lex;
+    src: url("../font/LexendDeca-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: big;
+    src: url("../font/BigShouldersDisplay-VariableFont_wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    margin: 20rem;
+    }
+.a{
+    background-color: hsl(31, 77%, 52%);
+}
+.b{background-color:hsl(184, 100%, 22%) ;
+}
+.c{
+    background-color: hsl(179, 100%, 13%);
+}
+h1{
+    font-family: big;
+    color:  hsl(0, 0%, 95%);
+}
+.a,
+.b,
+.c{
+    display: flex;
+    flex-direction: column;
+padding: 3.5rem;
+width: max-content;
+gap: 2rem;
+}
+img{
+    height: 2rem;
+    width: 3rem;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.50);
+    font-family: lex;
+}
+.one{
+    color:hsl(31, 77%, 52%);
+}
+.tow{
+    color:hsl(184, 100%, 22%);
+}
+.thr{
+    
+    color:hsl(179, 100%, 13%);
+}
+a:hover{
+    color:hsl(0, 0%, 95%) ;
+    border: .1rem solid hsl(0, 0%, 95%);
+    padding: 1rem 2rem;
+}
+a{
+    text-decoration: none;
+    background-color:hsl(0, 0%, 95%)  ; 
+    padding: 1.1rem 2.1rem;
+    border-radius: 3rem;
+    text-align: center;
+    font-family: lex;
+}
+.one:hover{
+    background-color:hsl(31, 77%, 52%);
+}
+.tow:hover{
+    background-color:hsl(184, 100%, 22%);
+}
+.thr:hover{
+    
+    background-color:hsl(179, 100%, 13%);
+}
